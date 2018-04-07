@@ -5,5 +5,5 @@ end
 def batch_badge_creator(names)
   range = 0..name.size -1
   for index in range
-    
+    names[index]
 end
