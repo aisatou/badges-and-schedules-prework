@@ -22,5 +22,11 @@ def assign_rooms(names)
 end
 
 def printer(names)
-  badges = 
+  badges = batch_badge_creator(names)
+  room_assignments = assign_rooms(names)
+  
+  range = 0..names.size - 1
+  for num in range
+    print badges[num] + "\n"
+end
 end
