@@ -27,6 +27,6 @@ def printer(names)
   
   range = 0..names.size - 1
   for num in range
-    print badges[num] + "\n"
-end
+    puts badges[num]
+  end
 end
