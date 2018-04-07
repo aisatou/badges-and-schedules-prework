@@ -3,6 +3,7 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(names)
-  name.size -1
-  for 
+  range = 0..name.size -1
+  for index in range
+    
 end
