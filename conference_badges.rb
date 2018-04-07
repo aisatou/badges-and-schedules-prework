@@ -14,7 +14,7 @@ end
 
 def assign_rooms(names)
   room_assignments = []
-  range = 1..7
+  range = 0..6
   for num in range
     room_assignments.push("Hello, #{names[num]}! You'll be assigned to room #{num}!")
   end
