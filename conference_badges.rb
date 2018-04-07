@@ -29,4 +29,8 @@ def printer(names)
   for num in range
     puts badges[num]
   end
+  
+  for num in range
+    puts badges[num]
+  end
 end
