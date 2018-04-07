@@ -13,5 +13,7 @@ def batch_badge_creator(names)
 end
 
 def assign_rooms(names)
-  
+  range = 1..7
+  for num in range
+    ""
 end
