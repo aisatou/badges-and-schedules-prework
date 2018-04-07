@@ -13,7 +13,10 @@ def batch_badge_creator(names)
 end
 
 def assign_rooms(names)
+  room_assignments = []
   range = 1..7
   for num in range
-    "Hello, #{names[num]}! You'll be assigned to room #{num}!"
+    room_assignments.push("Hello, #{names[num]}! You'll be assigned to room #{num}!")
+  end
+  return room_assignments
 end
