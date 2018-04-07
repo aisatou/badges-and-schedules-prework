@@ -15,5 +15,5 @@ end
 def assign_rooms(names)
   range = 1..7
   for num in range
-    ""
+    "Hello, #{names[num]}! You'll be assigned to room #{num}!"
 end
