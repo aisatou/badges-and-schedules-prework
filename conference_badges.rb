@@ -31,6 +31,6 @@ def printer(names)
   end
   
   for num in range
-    puts badges[num]
+    puts room_assignments[num]
   end
 end
